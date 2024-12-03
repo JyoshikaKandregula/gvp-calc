@@ -1,8 +1,11 @@
 package com.gvp.calc;
 
-public class Adder {
-    public int add(int addend, int adder) {
-        int sum = addend + adder;
-        return sum;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class GvpCalcApplication {
+    public static void main(String[] args) {
+        SpringApplication.run(GvpCalcApplication.class, args);
     }
 }
