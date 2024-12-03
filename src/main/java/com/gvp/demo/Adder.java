@@ -1,10 +1,8 @@
 package com.gvp.calc;
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
-public class Adder{
-    public static void main(String[] args) {
-        SpringApplication.run(Adder.class, args);
+public class Adder {
+    public int add(int addend, int adder) {
+        int sum = addend + adder;
+        return sum;
     }
 }
